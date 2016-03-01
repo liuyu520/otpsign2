@@ -1,0 +1,46 @@
+.menu {
+	width: 177px;
+	height: 100%;
+}
+
+.menu_top {
+	background-image: url("images/menu_top.gif");
+	height: 26px;
+}
+
+.menu_line {
+	background-image: url("images/menu_line.gif");
+	line-height: 4px;
+}
+
+.menu_tree {
+	overflow-y: auto;
+	overflow-x: auto;
+	width: 97%;
+	margin: 0px;
+	padding: 0px;
+	top: 30px;
+	bottom: 0px;
+	position: absolute;
+}
+
+.left_leftBorder {
+	background-image: url("images/main_40.gif");
+	background-repeat:repeat-y;
+	width: 3px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.left_center {
+	border-right: solid 1px #51b2f6;
+	vertical-align: top;
+	width: 177px;
+}
+
+.left_rightBorder {
+	background-image: url("images/main_42.gif");
+	width: 6px;
+	overflow: hidden;
+	height: 100%;
+}

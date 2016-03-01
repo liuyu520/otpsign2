@@ -1,0 +1,121 @@
+.login_input {
+	height: 22px;
+	font-size: 14px;
+	background: #fff;
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	border: 1px solid #999;
+	padding: 2px 2px 0px 85px;
+	border-radius: 5px;
+}
+
+.login_input_username {
+	background-image: url("images/login_username.png");
+	width: 200px;
+}
+
+.login_input_password {
+	background-image: url("images/login_password.png");
+	width: 200px;
+}
+.login_input_demo {
+	height: 18px;
+	font-size: 14px;
+	background: #fff;
+	background-repeat: no-repeat;
+	background-position:2px center;
+	border: none;
+	width: 200px;
+	outline: none;
+}
+.login_input_verifyCode {
+	background-image: url("images/login_verifyCode.png");
+	width: 93px;
+	outline:none;
+	ime-mode:disabled;
+	-webkit-ime-mode:disabled;
+	-moz-ime-mode:disabled;
+	-ms-ime-mode:disabled;
+}
+
+.login_bg {
+	background-image: url("images/login_bg.gif");
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.login_panel {
+	background-image: url("images/login_panel.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 928px;
+	height: 329px;
+	top: 50%;
+	left: 50%;
+	margin-left: -464px;
+	margin-top: -164px;
+	position: absolute;
+	vertical-align: middle;
+	text-align: center;
+	*text-align: left;
+}
+
+.login_panel table {
+	margin-top: 20px;
+}
+
+.login_panel td {
+	height: 40px;
+}
+
+.login_left {
+	background-image: url("images/login_logo.png");
+	background-repeat: no-repeat;
+	width: 409px;
+	height: 64px;
+	display: bolck;
+	margin-top: 10px;
+	margin-left: 160px;
+}
+
+.login_right {
+	color: #009900;
+	font-size: 14px;
+	width: 200px;
+	margin-left: 280px;
+	margin-top:10px;
+	display: bolck;
+}
+
+.login_bottom {
+	margin-top: 25px;
+	margin-left: 280px;
+	display: bolck;
+	float: left;
+	display: bolck;
+	*margin-left: 140px;
+	*margin-top: 30px;
+	_margin-left:93px;
+}
+
+.login_button {
+	background-image: url("images/login_button.png");
+	font-size: 14px;
+	width: 100px;
+	height: 30px;
+	border: 0px;
+}
+
+.login_button:hover {
+	background: url("images/login_button2.png") no-repeat;
+}
+
+.login_formTable {
+	
+}
+
+.login_VerifyCodeImg{
+	vertical-align: middle;
+	border: 0px;
+	margin-top: -8px;
+}

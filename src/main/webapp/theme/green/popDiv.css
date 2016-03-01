@@ -1,0 +1,40 @@
+.pop-box {
+	z-index: 99999; 
+	margin-bottom: 30px;
+	display: none;
+	position: absolute;
+	background: #FFF;
+	border: solid 1px #6e8bde;
+}
+
+.mask {
+	top: 0px;
+	position: absolute;
+	background: #000;
+	border: 1px solid #999;
+	filter: alpha(opacity = 50);
+	opacity: .5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	box-shadow: none;
+}
+
+.pop-box-body {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+
+.buttonPanel {
+	
+}
+
+.buttonPanel a {
+	background: url(images/close.gif);
+	height: 15px;
+	width: 15px;
+	display: block;
+	float: right;
+	margin-bottom:-15px;
+	z-index:100;
+	position:relative;
+}

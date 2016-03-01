@@ -1,0 +1,22 @@
+.footer {
+	color: #43860c;
+	font-size: 12px;
+	background-image: url("images/footer_back.gif");
+	height: 24px;
+}
+
+.footer_left {
+	background-image: url("images/footer_1.gif");
+	height: 24px;
+	width: 29px;
+}
+
+.footer_center {
+	text-align: center;
+}
+
+.footer_right {
+	background-image: url("images/footer_3.gif");
+	height: 24px;
+	width: 14px;
+}

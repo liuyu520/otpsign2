@@ -1,0 +1,86 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+
+table {
+	width: 100%;
+	border: 0px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	white-space: nowrap;
+}
+
+th,td {
+	padding: 0;
+}
+
+td span {
+	white-space: nowrap;
+}
+
+.greenFont {
+	color: #43860c;
+	font-size: 12px;
+}
+
+.titleFont {
+	font-size: 12px;
+	color: #1F4A65;
+	font-weight: bold;
+}
+
+.button {
+	background-image: url(images/button.gif);
+	border-style: none;
+	width: 68px;
+	height: 24px;
+}
+a:link {
+	font-size: 12px;
+	text-decoration: none;
+	color: #06527d;
+}
+
+a:visited {
+	font-size: 12px;
+	text-decoration: none;
+	color: #06527d;
+}
+
+a:hover {
+	font-size: 12px;
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+a.v1:link {
+	font-size: 12px;
+	text-decoration: none;
+	color: #000000;
+}
+
+a.v1:visited {
+	font-size: 12px;
+	text-decoration: none;
+	color: #000000;
+}
+
+a.v1:hover {
+	font-size: 12px;
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+.errorMessage {
+	color: red;
+	margin-left:10px;
+	list-style: none;
+}
+
+.errorMessage li {
+	float: left;
+}

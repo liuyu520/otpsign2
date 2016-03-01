@@ -1,0 +1,196 @@
+.nav {
+	font-size: 12px;
+	color: #1F4A65;
+	font-weight: bold;
+}
+
+.lastlogin{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.audit{
+	width:300px;
+	margin-left:10px;
+}
+
+.audit_title_left {
+	background-image: url("images/tab_23.gif");
+	width: 7px;
+	height: 22px;
+	margin-left:10px;
+}
+
+.audit_title_text {
+	background-image: url("images/tab_24.gif");
+	width: 290px;
+}
+
+.audit_title_right {
+	background-image: url("images/tab_25.gif");
+	height: 22px;
+	width: 7px;
+}
+
+.data {
+	width: 100%;
+}
+
+.data_title_left {
+	background-image: url("images/tab_03.gif");
+	width: 7px;
+	height: 27px;
+	margin-left:10px;
+}
+
+.data_title_text {
+	background-image: url("images/tab_05.gif");
+	width: 120px;
+}
+
+.data_title_button {
+	background-image: url("images/tab_05.gif");
+	white-space: nowrap;
+}
+
+.data_title_button_insert {
+	background-image: url("images/001.gif");
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 40px;
+	text-align: right;
+	display: block;
+	float: left;
+	margin-left: 15px;
+}
+
+.data_title_button_delete {
+	background-image: url("images/083.gif");
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 65px;
+	text-align: right;
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+
+.data_title_right {
+	background-image: url("images/tab_07.gif");
+	height: 27px;
+	width: 7px;
+}
+
+.data .list_left_border {
+	background-image: url("images/tab_12.gif");
+	width: 9px;
+}
+
+.data .list_right_border {
+	background-image: url("images/tab_16.gif");
+	width: 7px;
+}
+
+/*数据列表样式*/
+.data_list {
+	width: 100%;
+	background-color: #b6e2ff;
+	border: 0px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	jerry: expression(cellSpacing = "1");
+}
+
+.data_list_title td {
+	background-image: url("images/tab_14.gif");
+	background-color: #ffffff;
+	height: 26px;
+	font-size: 12px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.data_list_title td span {
+	white-space: nowrap;
+}
+
+.data_list_listData td {
+	background-color: #ffffff;
+	height: 18px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.pageBottom {
+	background-image: url("images/tab_21.gif");
+}
+
+.pageBottom_top {
+	width: 7px;
+	height: 27px;
+	background-image: url("images/tab_20.gif");
+}
+
+.pageBottom_first {
+	background-image: url("images/first.gif");
+	width: 37px;
+	height: 15px;
+	float: left;
+	margin-left: 5px;
+	display: block;
+}
+
+.pageBottom_back {
+	background-image: url("images/back.gif");
+	width: 43px;
+	height: 15px;
+	float: left;
+	margin-left: 5px;
+	display: block;
+}
+
+.pageBottom_next {
+	background-image: url("images/next.gif");
+	width: 43px;
+	height: 15px;
+	float: left;
+	margin-left: 5px;
+	display: block;
+}
+
+.pageBottom_last {
+	background-image: url("images/last.gif");
+	width: 37px;
+	height: 15px;
+	float: left;
+	margin-left: 5px;
+	display: block;
+}
+
+.pageBottom_go {
+	background-image: url("images/go.gif");
+	width: 37px;
+	height: 15px;
+	float: left;
+	margin-left: 5px;
+	display: block;
+}
+
+.pageBottom_bottom {
+	background-image: url("images/tab_22.gif");
+	width: 7px;
+	height: 27px;
+}
+
+#function {
+	overflow-y: auto;
+	overflow-x: auto;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	top: 20px;
+	bottom: 0px;
+	position: absolute;
+	_width:expression(documentElement.clientWidth-185);
+	_height:expression(documentElement.clientHeight-125);
+}

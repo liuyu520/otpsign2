@@ -1,0 +1,53 @@
+.search_title {
+	background-image: url("images/tab_05.gif");
+}
+
+.search_title_left {
+	background-image: url("images/tab_03.gif");
+	width: 15px;
+	height: 30px;
+}
+
+.search_title_center {
+	background-image: url("images/tab_05.gif");
+}
+
+.search_title_right {
+	background-image: url("images/tab_07.gif");
+	width: 14px;
+	height: 30px;
+}
+
+.search_bottom_left {
+	background-image: url("images/tab_20.gif");
+	width: 9px;
+}
+
+.search_bottom_center {
+	background-image: url("images/tab_21.gif");
+}
+
+.search_bottom_right {
+	background-image: url("images/tab_22.gif");
+	width: 14px;
+	height: 30px;
+}
+
+.search_data_left {
+	background-image: url("images/search_left.gif");
+	width: 1px;
+}
+
+.search_data {
+	background-image: url("images/search_bg.gif");
+	background-repeat: repeat;
+}
+
+.search_data td {
+	height: 26px;
+}
+
+.search_data_right {
+	background-image: url("images/search_right.gif");
+	width: 1px;
+}

@@ -1,0 +1,31 @@
+.header {
+	color: #43860c;
+	font-size: 12px;
+}
+
+.header_bg3 {
+	background-image: url("images/header_bg3.gif");
+	height: 57px;
+}
+
+.header_bg4 {
+	background-image: url("images/logo.gif");
+	background-position:2px 10px;
+	height: 55px;
+	width: 265px;
+	background-repeat: no-repeat;
+}
+.header_bg4_ie6 {
+	background-image: url("images/logo_ie6.gif");
+	background-position:2px;
+	height: 55px;
+	width: 265px;
+	background-repeat: no-repeat;
+}
+
+.header_bg8 {
+	background-image: url("images/header_bg8.gif");
+	width: 204px;
+	height: 23px;
+	border: 0px;
+}

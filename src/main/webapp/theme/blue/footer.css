@@ -1,0 +1,20 @@
+.footer {
+	color: #06527D;
+	font-size: 12px;
+	background-image: url("images/footer_back.gif");
+	height: 24px;
+}
+
+.footer_left {
+	height: 24px;
+	width: 8px;
+}
+
+.footer_center {
+	text-align: center;
+}
+
+.footer_right {
+	height: 24px;
+	width: 8px;
+}

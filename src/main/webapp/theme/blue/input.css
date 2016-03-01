@@ -1,0 +1,77 @@
+.input_title {
+	background-image: url("images/tab_05.gif");
+}
+
+.input_title_left {
+	background-image: url("images/tab_03.gif");
+	width: 7px;
+	height: 27px;
+}
+
+.input_title_center {
+	background-image: url("images/tab_05.gif");
+}
+
+.input_title_right {
+	background-image: url("images/tab_07.gif");
+	width: 7px;
+	height: 27px;
+}
+
+.input_bottom_left {
+	background-image: url("images/tab_20.gif");
+	background-position:left bottom;
+	height: 5px;
+}
+
+.input_bottom_center {
+	background-image: url("images/tab_21.gif");
+	background-position:right bottom;
+	height: 5px;
+}
+
+.input_bottom_right {
+	background-image: url("images/tab_22.gif");
+	background-position:right bottom;
+	height: 5px;
+}
+
+.input_data_left {
+	background-image: url("images/search_left.gif");
+	width: 1px;
+}
+
+.input_data {
+	background-image: url("images/search_bg.gif");
+	background-repeat: repeat;
+}
+
+.input_data td {
+	height: 26px;
+}
+
+.input_data_right {
+	background-image: url("images/search_right.gif");
+	width: 1px;
+}
+
+.input_body {
+}
+
+.input_body_td_title {
+	line-height: 22px;
+	border: solid 1px #e1e1e1;
+	font-size: 12px;
+	width: 100px;
+	padding-right:5px;
+	text-align: right;
+	color:blue;
+}
+
+.input_body_td_data {
+	line-height: 22px;
+	border: solid 1px #e1e1e1;
+	font-size: 12px;
+	padding-left:5px;
+	text-align: left;
+}
